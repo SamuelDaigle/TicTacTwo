@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AppSDL", "AppSDL\AppSDL.vcxproj", "{7F77E4F5-27F9-443A-9BB0-270B20DA1682}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataLayer", "DataLayer\DataLayer.vcxproj", "{32659190-BFF6-4E84-BB97-F097396508F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -15,6 +17,10 @@ Global
 		{7F77E4F5-27F9-443A-9BB0-270B20DA1682}.Debug|Win32.Build.0 = Debug|Win32
 		{7F77E4F5-27F9-443A-9BB0-270B20DA1682}.Release|Win32.ActiveCfg = Release|Win32
 		{7F77E4F5-27F9-443A-9BB0-270B20DA1682}.Release|Win32.Build.0 = Release|Win32
+		{32659190-BFF6-4E84-BB97-F097396508F2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{32659190-BFF6-4E84-BB97-F097396508F2}.Debug|Win32.Build.0 = Debug|Win32
+		{32659190-BFF6-4E84-BB97-F097396508F2}.Release|Win32.ActiveCfg = Release|Win32
+		{32659190-BFF6-4E84-BB97-F097396508F2}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
