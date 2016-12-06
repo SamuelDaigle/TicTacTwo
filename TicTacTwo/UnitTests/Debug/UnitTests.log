@@ -1,0 +1,66 @@
+﻿La génération a démarré 2016-02-08 17:36:15.
+     1>Projet "D:\TicTacTwo\UnitTests\UnitTests.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ID:\TicTacTwo\packages\sqlite.3.8.4.2\build\native\../..//build/native/include/ /I"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\UnitTest\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"Debug\UnitTests.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /FC /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ID:\TicTacTwo\packages\sqlite.3.8.4.2\build\native\../..//build/native/include/ /I"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\UnitTest\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\UnitTests.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /FC /errorReport:prompt ButtonTests.cpp DialTests.cpp EasyComputerTests.cpp FakeWindowAPI.cpp GameControllerTests.cpp GridTests.cpp LineManagerTests.cpp LineTests.cpp MenuControllerTests.cpp NormalComputerTests.cpp OptionsControllerTests.cpp PointsTests.cpp TileTests.cpp WindowRenderTests.cpp WindowTests.cpp
+         WindowTests.cpp
+         WindowRenderTests.cpp
+         TileTests.cpp
+         PointsTests.cpp
+         OptionsControllerTests.cpp
+         NormalComputerTests.cpp
+     1>d:\tictactwo\unittests\normalcomputertests.cpp(33): warning C4244: 'argument' : conversion de 'const double' en 'const unsigned int', perte possible de données
+     1>d:\tictactwo\unittests\normalcomputertests.cpp(38): warning C4244: 'argument' : conversion de 'const double' en 'const unsigned int', perte possible de données
+     1>d:\tictactwo\unittests\normalcomputertests.cpp(48): warning C4244: 'argument' : conversion de 'const double' en 'const unsigned int', perte possible de données
+     1>d:\tictactwo\unittests\normalcomputertests.cpp(70): warning C4244: 'argument' : conversion de 'const double' en 'const unsigned int', perte possible de données
+     1>d:\tictactwo\unittests\normalcomputertests.cpp(92): warning C4244: 'argument' : conversion de 'const double' en 'const unsigned int', perte possible de données
+     1>d:\tictactwo\unittests\normalcomputertests.cpp(109): warning C4244: 'argument' : conversion de 'const double' en 'const unsigned int', perte possible de données
+     1>d:\tictactwo\unittests\normalcomputertests.cpp(356): warning C4244: 'argument' : conversion de 'const double' en 'const unsigned int', perte possible de données
+         MenuControllerTests.cpp
+         LineTests.cpp
+         LineManagerTests.cpp
+         GridTests.cpp
+         GameControllerTests.cpp
+         FakeWindowAPI.cpp
+         EasyComputerTests.cpp
+     1>d:\tictactwo\unittests\easycomputertests.cpp(32): warning C4244: 'argument' : conversion de 'const double' en 'const unsigned int', perte possible de données
+     1>d:\tictactwo\unittests\easycomputertests.cpp(50): warning C4244: 'argument' : conversion de 'const double' en 'const unsigned int', perte possible de données
+     1>d:\tictactwo\unittests\easycomputertests.cpp(93): warning C4244: 'argument' : conversion de 'const double' en 'const unsigned int', perte possible de données
+     1>d:\tictactwo\unittests\easycomputertests.cpp(122): warning C4244: 'argument' : conversion de 'const double' en 'const unsigned int', perte possible de données
+         DialTests.cpp
+         ButtonTests.cpp
+     1>d:\tictactwo\unittests\buttontests.cpp(218): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
+     1>d:\tictactwo\unittests\buttontests.cpp(234): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
+         Génération de code en cours...
+     1>d:\tictactwo\unittests\fakewindowapi.cpp(80): warning C4172: retourne l'adresse d'une variable locale ou  temporaire
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\TicTacTwo\Debug\UnitTests.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\UnitTest\lib" D:\TicTacTwo\packages\sqlite.3.8.4.2\build\native\../..//build/native/lib/Win32\Debug\sqlite3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\TicTacTwo\Debug\UnitTests.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\TicTacTwo\Debug\UnitTests.lib" /MACHINE:X86 /DLL Debug\ButtonTests.obj
+         Debug\DialTests.obj
+         Debug\EasyComputerTests.obj
+         Debug\FakeWindowAPI.obj
+         Debug\GameControllerTests.obj
+         Debug\GridTests.obj
+         Debug\LineManagerTests.obj
+         Debug\LineTests.obj
+         Debug\MenuControllerTests.obj
+         Debug\NormalComputerTests.obj
+         Debug\OptionsControllerTests.obj
+         Debug\PointsTests.obj
+         Debug\stdafx.obj
+         Debug\TileTests.obj
+         Debug\WindowRenderTests.obj
+         Debug\WindowTests.obj
+         D:\TicTacTwo\Debug\Platform.lib
+         D:\TicTacTwo\Debug\Utility.lib
+         D:\TicTacTwo\Debug\AI.lib
+         D:\TicTacTwo\Debug\Controllers.lib
+         D:\TicTacTwo\Debug\DataLayer.lib
+         D:\TicTacTwo\Debug\GameRender.lib
+            Création de la bibliothèque D:\TicTacTwo\Debug\UnitTests.lib et de l'objet D:\TicTacTwo\Debug\UnitTests.exp
+         UnitTests.vcxproj -> D:\TicTacTwo\Debug\UnitTests.dll
+     1>Génération du projet "D:\TicTacTwo\UnitTests\UnitTests.vcxproj" terminée (Build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:27.66

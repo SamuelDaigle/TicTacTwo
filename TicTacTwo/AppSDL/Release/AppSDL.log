@@ -1,0 +1,32 @@
+﻿La génération a démarré 2015-11-19 11:40:22.
+     1>Projet "C:\Users\charl\Desktop\TicTacTwo\AppSDL\AppSDL.vcxproj" sur le nœud 3 (Rebuild cible(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\Users\charl\Desktop\TicTacTwo\packages\sqlite.3.8.4.2\build\native\../..//build/native/include/ /IC:\Users\charl\Desktop\TicTacTwo\packages\SDL.1.2.15.16\build\native\../..//build/native/include/ /I..\SDLDraw\include /I..\SDL\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D HAS_SDL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"Release\AppSDL.pch" /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\Users\charl\Desktop\TicTacTwo\packages\sqlite.3.8.4.2\build\native\../..//build/native/include/ /IC:\Users\charl\Desktop\TicTacTwo\packages\SDL.1.2.15.16\build\native\../..//build/native/include/ /I..\SDLDraw\include /I..\SDL\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D HAS_SDL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Release\AppSDL.pch" /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp SDLWindowAPI.cpp
+         main.cpp
+         SDLWindowAPI.cpp
+     1>SDLWindowAPI.cpp(32): warning C4838: la conversion de 'int' en 'Sint16' requiert une conversion restrictive
+     1>SDLWindowAPI.cpp(32): warning C4838: la conversion de 'int' en 'Uint16' requiert une conversion restrictive
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\charl\Desktop\TicTacTwo\Release\AppSDL.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\SDLDraw\lib /LIBPATH:..\SDL\lib C:\Users\charl\Desktop\TicTacTwo\packages\sqlite.3.8.4.2\build\native\../..//build/native/lib/Win32\Release\sqlite3.lib C:\Users\charl\Desktop\TicTacTwo\packages\SDL.1.2.15.16\build\native\../..//build/native/lib/Win32\v140\Release\SDL.lib C:\Users\charl\Desktop\TicTacTwo\packages\SDL.1.2.15.16\build\native\../..//build/native/lib/Win32\v140\Release\Application\NoStdioRedirect\SDLmain.lib SDL.lib SDLmain.lib SDL_draw.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\charl\Desktop\TicTacTwo\Release\AppSDL.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\charl\Desktop\TicTacTwo\Release\AppSDL.lib" /MACHINE:X86 /SAFESEH Release\main.obj
+         Release\SDLWindowAPI.obj
+         Release\stdafx.obj
+         C:\Users\charl\Desktop\TicTacTwo\Release\Platform.lib
+         C:\Users\charl\Desktop\TicTacTwo\Release\DataLayer.lib
+         C:\Users\charl\Desktop\TicTacTwo\Release\Utility.lib
+         C:\Users\charl\Desktop\TicTacTwo\Release\AI.lib
+         C:\Users\charl\Desktop\TicTacTwo\Release\Controllers.lib
+         C:\Users\charl\Desktop\TicTacTwo\Release\GameRender.lib
+            Création de la bibliothèque C:\Users\charl\Desktop\TicTacTwo\Release\AppSDL.lib et de l'objet C:\Users\charl\Desktop\TicTacTwo\Release\AppSDL.exp
+         Génération de code en cours
+     1>c:\users\charl\desktop\tictactwo\appsdl\sdlwindowapi.cpp(86): warning C4715: 'SDLWindowAPI::getEvent' : les chemins de contrôle ne retournent pas tous une valeur
+         All 1182 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         Fin de la génération du code
+     1>SDL_draw.lib(SDL_draw.obj) : warning LNK4099: PDB 'SDL_draw_static.pdb' n'a pu être trouvé avec 'SDL_draw.lib(SDL_draw.obj)' ou sur 'C:\Users\charl\Desktop\TicTacTwo\Release\SDL_draw_static.pdb' ; l'objet sera lié sans informations de débogage
+         AppSDL.vcxproj -> C:\Users\charl\Desktop\TicTacTwo\Release\AppSDL.exe
+     1>Génération du projet "C:\Users\charl\Desktop\TicTacTwo\AppSDL\AppSDL.vcxproj" terminée (Rebuild cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:02.72

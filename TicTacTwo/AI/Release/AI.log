@@ -1,0 +1,28 @@
+﻿La génération a démarré 2015-11-19 11:40:16.
+     1>Projet "C:\Users\charl\Desktop\TicTacTwo\AI\AI.vcxproj" sur le nœud 2 (Rebuild cible(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"Release\AI.pch" /Fo"Release\\" /Fd"Release\AI.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Release\AI.pch" /Fo"Release\\" /Fd"Release\AI.pdb" /Gd /TP /analyze- /errorReport:prompt Computer.cpp EasyComputer.cpp NormalComputer.cpp
+         Computer.cpp
+         EasyComputer.cpp
+         NormalComputer.cpp
+     1>NormalComputer.cpp(210): warning C4244: 'argument' : conversion de 'double' en 'const unsigned int', perte possible de données
+     1>NormalComputer.cpp(211): warning C4244: 'argument' : conversion de 'double' en 'const unsigned int', perte possible de données
+     1>NormalComputer.cpp(212): warning C4244: 'argument' : conversion de 'double' en 'const unsigned int', perte possible de données
+     1>NormalComputer.cpp(213): warning C4244: 'argument' : conversion de 'double' en 'const unsigned int', perte possible de données
+     1>NormalComputer.cpp(214): warning C4244: 'argument' : conversion de 'double' en 'const unsigned int', perte possible de données
+     1>NormalComputer.cpp(215): warning C4244: 'argument' : conversion de 'double' en 'const unsigned int', perte possible de données
+     1>NormalComputer.cpp(216): warning C4244: 'argument' : conversion de 'double' en 'const unsigned int', perte possible de données
+     1>NormalComputer.cpp(217): warning C4244: 'argument' : conversion de 'double' en 'const unsigned int', perte possible de données
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"C:\Users\charl\Desktop\TicTacTwo\Release\AI.lib" /NOLOGO /LTCG Release\Computer.obj
+         Release\EasyComputer.obj
+         Release\NormalComputer.obj
+         Release\stdafx.obj
+         AI.vcxproj -> C:\Users\charl\Desktop\TicTacTwo\Release\AI.lib
+     1>Génération du projet "C:\Users\charl\Desktop\TicTacTwo\AI\AI.vcxproj" terminée (Rebuild cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:01.46

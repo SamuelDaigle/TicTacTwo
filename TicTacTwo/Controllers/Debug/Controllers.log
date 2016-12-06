@@ -1,0 +1,14 @@
+﻿  stdafx.cpp
+  OptionsController.cpp
+  MenuController.cpp
+  MainController.cpp
+  LineManager.cpp
+d:\tictactwo\controllers\linemanager.cpp(26): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+d:\tictactwo\controllers\linemanager.cpp(150): warning C4018: '<': signed/unsigned mismatch
+  GameController.cpp
+d:\tictactwo\controllers\gamecontroller.cpp(141): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+d:\tictactwo\controllers\gamecontroller.cpp(274): warning C4244: 'argument': conversion from 'const double' to 'const unsigned int', possible loss of data
+  GameConfiguration.cpp
+  Button.cpp
+  Generating Code...
+  Controllers.vcxproj -> D:\TicTacTwo\Debug\Controllers.lib

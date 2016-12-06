@@ -1,0 +1,28 @@
+﻿La génération a démarré 2015-11-19 11:40:19.
+     1>Projet "C:\Users\charl\Desktop\TicTacTwo\IntegrationTests\IntegrationTests.vcxproj" sur le nœud 2 (Rebuild cible(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\Users\charl\Desktop\TicTacTwo\packages\sqlite.3.8.4.2\build\native\../..//build/native/include/ /I"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\UnitTest\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"Release\IntegrationTests.pch" /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /FC /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\Users\charl\Desktop\TicTacTwo\packages\sqlite.3.8.4.2\build\native\../..//build/native/include/ /I"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\UnitTest\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Release\IntegrationTests.pch" /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /FC /errorReport:prompt GameDatabaseHelperTests.cpp GameRepositoryTests.cpp
+         GameDatabaseHelperTests.cpp
+         GameRepositoryTests.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\charl\Desktop\TicTacTwo\Release\IntegrationTests.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\UnitTest\lib" C:\Users\charl\Desktop\TicTacTwo\packages\sqlite.3.8.4.2\build\native\../..//build/native/lib/Win32\Release\sqlite3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\charl\Desktop\TicTacTwo\Release\IntegrationTests.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\charl\Desktop\TicTacTwo\Release\IntegrationTests.lib" /MACHINE:X86 /SAFESEH /DLL Release\GameDatabaseHelperTests.obj
+         Release\GameRepositoryTests.obj
+         Release\stdafx.obj
+         C:\Users\charl\Desktop\TicTacTwo\Release\Platform.lib
+         C:\Users\charl\Desktop\TicTacTwo\Release\Utility.lib
+         C:\Users\charl\Desktop\TicTacTwo\Release\AI.lib
+         C:\Users\charl\Desktop\TicTacTwo\Release\Controllers.lib
+         C:\Users\charl\Desktop\TicTacTwo\Release\DataLayer.lib
+     1>LINK : warning LNK4075: ' /INCREMENTAL' ignoré à cause de la spécification '/LTCG'
+            Création de la bibliothèque C:\Users\charl\Desktop\TicTacTwo\Release\IntegrationTests.lib et de l'objet C:\Users\charl\Desktop\TicTacTwo\Release\IntegrationTests.exp
+         Génération de code en cours
+         All 459 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         Fin de la génération du code
+         IntegrationTests.vcxproj -> C:\Users\charl\Desktop\TicTacTwo\Release\IntegrationTests.dll
+     1>Génération du projet "C:\Users\charl\Desktop\TicTacTwo\IntegrationTests\IntegrationTests.vcxproj" terminée (Rebuild cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:02.61

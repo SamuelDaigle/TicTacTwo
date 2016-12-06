@@ -1,0 +1,14 @@
+﻿  stdafx.cpp
+  NormalComputer.cpp
+d:\tictactwo\ai\normalcomputer.cpp(210): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+d:\tictactwo\ai\normalcomputer.cpp(211): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+d:\tictactwo\ai\normalcomputer.cpp(212): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+d:\tictactwo\ai\normalcomputer.cpp(213): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+d:\tictactwo\ai\normalcomputer.cpp(214): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+d:\tictactwo\ai\normalcomputer.cpp(215): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+d:\tictactwo\ai\normalcomputer.cpp(216): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+d:\tictactwo\ai\normalcomputer.cpp(217): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+  EasyComputer.cpp
+  Computer.cpp
+  Generating Code...
+  AI.vcxproj -> D:\TicTacTwo\Debug\AI.lib

@@ -24,6 +24,9 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="SDLWindowAPI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -32,5 +35,76 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="SDLWindowAPI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Back.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="christophe.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="computerChoice.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Defeat.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="DifficultyTitle.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Easy.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="emptySquare1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Gear.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ImageTitle.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Jouer.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Load.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Normal.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="OPlayer.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="OType.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Quitter.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RedDot.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Tie.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TileTypeTitle.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Victory.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="XPlayer.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="XType.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>

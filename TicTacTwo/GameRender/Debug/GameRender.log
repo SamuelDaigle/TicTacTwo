@@ -1,0 +1,13 @@
+﻿  stdafx.cpp
+  WindowRender.cpp
+  WindowEvent.cpp
+  Window.cpp
+d:\tictactwo\gamerender\window.cpp(25): warning C4101: 'essai': unreferenced local variable
+d:\tictactwo\gamerender\window.cpp(71): warning C4244: 'argument': conversion from 'const double' to 'int', possible loss of data
+  LineRenderer.cpp
+d:\tictactwo\gamerender\linerenderer.cpp(53): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+d:\tictactwo\gamerender\linerenderer.cpp(62): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+d:\tictactwo\gamerender\linerenderer.cpp(71): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+d:\tictactwo\gamerender\linerenderer.cpp(80): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  Generating Code...
+  GameRender.vcxproj -> D:\TicTacTwo\Debug\GameRender.lib

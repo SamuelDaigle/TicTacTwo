@@ -1,0 +1,28 @@
+﻿La génération a démarré 2015-11-19 11:40:19.
+     1>Projet "C:\Users\charl\Desktop\TicTacTwo\GameRender\GameRender.vcxproj" sur le nœud 3 (Rebuild cible(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"Release\GameRender.pch" /Fo"Release\\" /Fd"Release\GameRender.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Release\GameRender.pch" /Fo"Release\\" /Fd"Release\GameRender.pdb" /Gd /TP /analyze- /errorReport:prompt LineRenderer.cpp Window.cpp WindowEvent.cpp WindowRender.cpp
+         LineRenderer.cpp
+     1>LineRenderer.cpp(53): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
+     1>LineRenderer.cpp(62): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
+     1>LineRenderer.cpp(71): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
+     1>LineRenderer.cpp(80): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
+         Window.cpp
+     1>Window.cpp(25): warning C4101: 'essai' : variable locale non référencée
+     1>Window.cpp(71): warning C4244: 'argument' : conversion de 'const double' en 'int', perte possible de données
+         WindowEvent.cpp
+         WindowRender.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"C:\Users\charl\Desktop\TicTacTwo\Release\GameRender.lib" /NOLOGO /LTCG Release\LineRenderer.obj
+         Release\Window.obj
+         Release\stdafx.obj
+         Release\WindowEvent.obj
+         Release\WindowRender.obj
+         GameRender.vcxproj -> C:\Users\charl\Desktop\TicTacTwo\Release\GameRender.lib
+     1>Génération du projet "C:\Users\charl\Desktop\TicTacTwo\GameRender\GameRender.vcxproj" terminée (Rebuild cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:02.63

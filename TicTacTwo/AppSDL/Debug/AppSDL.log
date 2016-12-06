@@ -1,1 +1,11 @@
-﻿  AppSDL.vcxproj -> C:\GitHub projects\TicTacTwo\TicTacTwo\Debug\AppSDL.exe
+﻿  stdafx.cpp
+  SDLWindowAPI.cpp
+d:\tictactwo\appsdl\sdlwindowapi.cpp(32): warning C4838: conversion from 'int' to 'Sint16' requires a narrowing conversion
+d:\tictactwo\appsdl\sdlwindowapi.cpp(32): warning C4838: conversion from 'int' to 'Uint16' requires a narrowing conversion
+  main.cpp
+  Generating Code...
+d:\tictactwo\appsdl\sdlwindowapi.cpp(86): warning C4715: 'SDLWindowAPI::getEvent': not all control paths return a value
+     Creating library D:\TicTacTwo\Debug\AppSDL.lib and object D:\TicTacTwo\Debug\AppSDL.exp
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+SDL_draw.lib(SDL_draw.obj) : warning LNK4099: PDB 'SDL_draw_static.pdb' was not found with 'SDL_draw.lib(SDL_draw.obj)' or at 'D:\TicTacTwo\Debug\SDL_draw_static.pdb'; linking object as if no debug info
+  AppSDL.vcxproj -> D:\TicTacTwo\Debug\AppSDL.exe

@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="PlatformTests">
+      <UniqueIdentifier>{085ad7d0-d83e-4e3a-87ec-fdf76ce0f02e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AITests">
+      <UniqueIdentifier>{077165a2-48f1-42b0-8e9a-bda7843996a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UtilityTests">
+      <UniqueIdentifier>{f6e7da6b-559f-438a-a8ce-1b475d6ef02c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameRenderTests">
+      <UniqueIdentifier>{54f67290-cdfa-4fa6-82ed-b37557c364e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fake">
+      <UniqueIdentifier>{cd168ec9-deef-405c-be84-50692d62441b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ControllersTests">
+      <UniqueIdentifier>{e190ec2f-fd54-4959-9322-05f4212b2eab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="FakeWindowAPI.h">
+      <Filter>Fake</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="TileTests.cpp">
+      <Filter>PlatformTests</Filter>
+    </ClCompile>
+    <ClCompile Include="DialTests.cpp">
+      <Filter>PlatformTests</Filter>
+    </ClCompile>
+    <ClCompile Include="LineTests.cpp">
+      <Filter>PlatformTests</Filter>
+    </ClCompile>
+    <ClCompile Include="GridTests.cpp">
+      <Filter>PlatformTests</Filter>
+    </ClCompile>
+    <ClCompile Include="PointsTests.cpp">
+      <Filter>UtilityTests</Filter>
+    </ClCompile>
+    <ClCompile Include="EasyComputerTests.cpp">
+      <Filter>AITests</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalComputerTests.cpp">
+      <Filter>AITests</Filter>
+    </ClCompile>
+    <ClCompile Include="FakeWindowAPI.cpp">
+      <Filter>Fake</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowRenderTests.cpp">
+      <Filter>GameRenderTests</Filter>
+    </ClCompile>
+    <ClCompile Include="GameControllerTests.cpp">
+      <Filter>ControllersTests</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuControllerTests.cpp">
+      <Filter>ControllersTests</Filter>
+    </ClCompile>
+    <ClCompile Include="LineManagerTests.cpp">
+      <Filter>ControllersTests</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonTests.cpp">
+      <Filter>ControllersTests</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionsControllerTests.cpp">
+      <Filter>ControllersTests</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowTests.cpp">
+      <Filter>GameRenderTests</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

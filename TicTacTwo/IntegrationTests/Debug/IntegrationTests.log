@@ -1,0 +1,25 @@
+﻿La génération a démarré 2016-02-08 17:36:11.
+     1>Projet "D:\TicTacTwo\IntegrationTests\IntegrationTests.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ID:\TicTacTwo\packages\sqlite.3.8.4.2\build\native\../..//build/native/include/ /I"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\UnitTest\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"Debug\IntegrationTests.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /FC /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ID:\TicTacTwo\packages\sqlite.3.8.4.2\build\native\../..//build/native/include/ /I"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\UnitTest\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\IntegrationTests.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /FC /errorReport:prompt GameDatabaseHelperTests.cpp GameRepositoryTests.cpp
+         GameRepositoryTests.cpp
+         GameDatabaseHelperTests.cpp
+         Génération de code en cours...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\TicTacTwo\Debug\IntegrationTests.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\UnitTest\lib" D:\TicTacTwo\packages\sqlite.3.8.4.2\build\native\../..//build/native/lib/Win32\Debug\sqlite3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\TicTacTwo\Debug\IntegrationTests.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\TicTacTwo\Debug\IntegrationTests.lib" /MACHINE:X86 /DLL Debug\GameDatabaseHelperTests.obj
+         Debug\GameRepositoryTests.obj
+         Debug\stdafx.obj
+         D:\TicTacTwo\Debug\Platform.lib
+         D:\TicTacTwo\Debug\Utility.lib
+         D:\TicTacTwo\Debug\AI.lib
+         D:\TicTacTwo\Debug\Controllers.lib
+         D:\TicTacTwo\Debug\DataLayer.lib
+            Création de la bibliothèque D:\TicTacTwo\Debug\IntegrationTests.lib et de l'objet D:\TicTacTwo\Debug\IntegrationTests.exp
+         IntegrationTests.vcxproj -> D:\TicTacTwo\Debug\IntegrationTests.dll
+     1>Génération du projet "D:\TicTacTwo\IntegrationTests\IntegrationTests.vcxproj" terminée (Build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:25.03

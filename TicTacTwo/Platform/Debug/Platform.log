@@ -1,0 +1,14 @@
+﻿  stdafx.cpp
+  Tile.cpp
+  Line.cpp
+d:\tictactwo\platform\line.cpp(96): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+d:\tictactwo\platform\line.cpp(97): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+d:\tictactwo\platform\line.cpp(107): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+d:\tictactwo\platform\line.cpp(108): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Grid.cpp
+d:\tictactwo\platform\grid.cpp(114): warning C4244: 'argument': conversion from 'const double' to 'const unsigned int', possible loss of data
+d:\tictactwo\platform\grid.cpp(122): warning C4244: 'argument': conversion from 'const double' to 'const unsigned int', possible loss of data
+d:\tictactwo\platform\grid.cpp(130): warning C4244: 'argument': conversion from 'const double' to 'const unsigned int', possible loss of data
+  Dial.cpp
+  Generating Code...
+  Platform.vcxproj -> D:\TicTacTwo\Debug\Platform.lib
